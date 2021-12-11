@@ -69,7 +69,10 @@ fn main() {
         }
 
         total_flashes += round_flashes;
-        println!("Round {}: {} round flashes, {} total flashes", i, round_flashes, total_flashes);
+        println!(
+            "Round {}: {} round flashes, {} total flashes",
+            i, round_flashes, total_flashes
+        );
 
         if round_flashes == (height * width) as u64 {
             break;
